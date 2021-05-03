@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Proyecto Chat Bluetooth</string>
+    <string name="str_texto_boton_enviar">Enviar</string>
+    <string name="str_texto_buscar_dispositivos">Buscar dispositivos</string>
+    <string name="str_menu_bluetooth_encendido">Encender Bluetooth</string>
+
+    <string name="str_dispositivos_emparejados">Dispositivos emparejados</string>
+    <string name="str_dispositivos_disponibles">Dispositivos disponibles</string>
+
+    <string name="str_menu_buscar_dispositivos">Buscar dispositivos</string>
+    <string name="str_menu_info">Autores</string>
+</resources>

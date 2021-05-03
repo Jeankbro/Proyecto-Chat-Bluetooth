@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActividadListaDispositivos">
+
+    <ProgressBar
+        android:id="@+id/progreso_escanear_dispositivos"
+        android:visibility="gone"
+        android:layout_gravity="left"
+        android:layout_height="25dp"
+        android:layout_width="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_dispositivos_emparejados"/>
+
+    <ListView
+        android:id="@+id/lista_dispositivos_emparejados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_dispositivos_emparejados"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_dispositivos_disponibles"/>
+
+    <ListView
+        android:id="@+id/lista_dispositivos_disponibles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_dispositivos_disponibles"/>
+
+
+</LinearLayout>
