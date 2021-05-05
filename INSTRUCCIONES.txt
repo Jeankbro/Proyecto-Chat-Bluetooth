@@ -1,0 +1,4 @@
+Si por alguna razón el programa no ejecuta, solo crear un nuevo proyecto
+y copiar todo el codigo, del main, los archivos de la carpeta app
+LA CARPETA APP ES IMPORTANTE
+APP Y SRC
